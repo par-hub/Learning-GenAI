@@ -1,0 +1,71 @@
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# ==============================
+# Python cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Build and distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Model and dataset artifacts
+# ==============================
+# Uncomment if you don't want to upload large files
+# *.pt
+# *.pth
+# *.h5
+# *.keras
+# *.pkl
+# *.joblib
+# datasets/
+# data/

@@ -1,0 +1,8 @@
+langchain
+python-dotenv
+ipykernel
+langchain-community
+langchain-huggingface
+chromadb
+faiss-cpu
+youtube-transcript-api
